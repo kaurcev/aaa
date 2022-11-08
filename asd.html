@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Александр Каурцев</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capacity" content="yes">
+    <style>
+        @font-face {
+            font-family: "Raleway-Regular";
+            src: url("./Raleway-Regular.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+        }
+        
+        @font-face {
+            font-family: "Raleway-SemiBold";
+            src: url("./Raleway-SemiBold.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            background-color: #f2f4f8;
+            font-family: "Raleway-Regular";
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .panel {
+            background-color: #fff;
+            width: 100%;
+            max-width: 400px;
+            min-height: 20vh;
+            box-shadow: 0 0 10px 0 #21212125;
+            border-radius: 20px;
+            padding: 10px;
+            color: #131313;
+        }
+        
+        .center {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #21212190;
+            padding: 10px;
+            color: #fff;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-family: "Raleway-SemiBold";
+        }
+        
+        button {
+            background-color: #3b48ff;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100%;
+            font-size: 16px;
+            color: #fff;
+            border: 2px solid #3b48ff;
+            font-family: "Raleway-SemiBold";
+            text-transform: uppercase;
+        }
+        
+        .centered {
+            text-align: center;
+        }
+        
+        .mini {
+            font-size: 12px;
+            opacity: 0.6;
+            padding: 1px;
+            margin: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div class="panel">
+            <h1>Приветствую Вас</h1>
+            <p>Я не знаю, что Вы тут забыл.. Тут делать нечего(</p>
+            <p>Я веб разработчик и веб дизайнер</p>
+            <button onclick="window.open('https://t.me/kaurcev')">Написать в telegram</button>
+
+        </div>
+        <p class="mini centered">2019-2022</p>
+    </div>
+</body>
+
+</html>
