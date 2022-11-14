@@ -276,7 +276,7 @@ hr {
     width: 100%;
     padding: 20px;
     margin: 5px;
-    min-height: 80vh;
+    min-height: fit-content;
 }
 
 .footer {
@@ -395,6 +395,9 @@ button:hover {}
     .content {
         width: 100%;
         max-width: none;
+    }
+    .content iframe {
+        width: 100%;
     }
     #nav {
         position: fixed;
