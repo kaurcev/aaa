@@ -251,6 +251,11 @@ hr {
     min-height: 250px;
 }
 
+.profile-bar #yandex_rtb_R-A-1794541-1 {
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
 .profile #ico {
     position: relative;
     top: 100px;
