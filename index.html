@@ -3,102 +3,145 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Александр Каурцев</title>
+    <title>Александр Каурцев - Личный сайт</title>
+    <meta name="description" content="Александр Каурцев - веб разработчик и веб дизйнер" />
+    <meta name="keywords" content="kteam.tk, Александр Каурцев, программист, web разработчик" />
+
+    <link rel="stylesheet" href="/assets/style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="true">
+    <meta name="robots" content="index,follow" />
+    <meta name="revisit-after" content="4 days" />
+
+    <meta name="owner" content="skaurcev2004@yandex.ru" />
+    <meta name="author" lang="ru" content="Александр Каурцев" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Александр Каурцев - Личный сайт">
+    <meta property="og:description" content="Александр Каурцев - Веб разработчик и веб дизайнер.">
+    <meta property="og:url" content="http://kaurcev.tk">
+    <meta property="og:image" content="http://mini.s-shot.ru/1280x768/1000/png/?http://kaurcev.tk">
+    <meta property="og:site_name" content="Александр Каурцев">
+    <meta property="og:locale" content="ru_RU">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@kaurcev">
+    <meta property="twitter:creator" content="@kaurcev">
+    <meta property="twitter:image:src" content="http://mini.s-shot.ru/1280x768/1000/png/?http:/kaurcev.tk">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta name="apple-mobile-web-app-capacity" content="yes">
-    <style>
-        @font-face {
-            font-family: "Raleway-Regular";
-            src: url("./Raleway-Regular.ttf") format("truetype");
-            font-style: normal;
-            font-weight: normal;
-        }
-        
-        @font-face {
-            font-family: "Raleway-SemiBold";
-            src: url("./Raleway-SemiBold.ttf") format("truetype");
-            font-style: normal;
-            font-weight: normal;
-        }
-        
-        * {
-            box-sizing: border-box;
-        }
-        
-        html,
-        body {
-            background-color: #f2f4f8;
-            font-family: "Raleway-Regular";
-            margin: 0px;
-            padding: 0px;
-        }
-        
-        .panel {
-            background-color: #fff;
-            width: 100%;
-            max-width: 400px;
-            min-height: 20vh;
-            box-shadow: 0 0 10px 0 #21212125;
-            border-radius: 20px;
-            padding: 10px;
-            color: #131313;
-        }
-        
-        .center {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: #21212190;
-            padding: 10px;
-            color: #fff;
-        }
-        
-        h1 {
-            font-size: 24px;
-            font-family: "Raleway-SemiBold";
-        }
-        
-        button {
-            background-color: #3b48ff;
-            padding: 10px;
-            border-radius: 10px;
-            width: 100%;
-            font-size: 16px;
-            color: #fff;
-            border: 2px solid #3b48ff;
-            font-family: "Raleway-SemiBold";
-            text-transform: uppercase;
-        }
-        
-        .centered {
-            text-align: center;
-        }
-        
-        .mini {
-            font-size: 12px;
-            opacity: 0.6;
-            padding: 1px;
-            margin: 1px;
-        }
-    </style>
+    <script>
+        window.yaContextCb = window.yaContextCb || []
+    </script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
 </head>
 
-<body>
-    <div class="center">
-        <div class="panel">
-            <h1>Добро пожаловать</h1>
-            <p>Я не знаю, что Вы тут забыли.. Тут делать нечего.</p>
-            <p>Я веб разработчик и веб дизайнер</p>
-            <button onclick="window.open('https://t.me/kaurcev')">Написать в telegram</button>
+<body onload="loading()">
+    <header>
+        <div class="header">
+            <a href="/"><img id="logo" src="/logo.svg" alt="KAURCEV.TK"></a>
+            <nav>
+                <a href="/about">Обо мне</a>
+                <a href="/projects">Проекты</a>
+                <a href="/me">Портфолио</a>
+                <a class="rang" href="https://pr-cy.ru" target="_blank"><img src="https://s.pr-cy.ru/counters/kaurcev.tk" width="88" height="31" alt="Анализ сайта" /></a>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div id="nav">
+            <a href="/blog/icons"><img src="/assets/svg/ico/icons.svg"><span>Иконки</span></a>
+            <a href="/blog/colors"><img src="/assets/svg/ico/pal.svg"><span>Палитры</span></a>
+            <a href="/blog/QR-generator"><img src="/assets/svg/ico/qr.svg"><span>QR</span></a>
+            <a href="/support"><img src="/assets/svg/ico/sup_money.svg"><span>Поддержать</span></a>
+            <a href="/"><img src="/assets/svg/ico/uslug.svg"><span>Услуги</span></a>
+            <a href="https://geekway.kaurcev.tk"><img src="/assets/svg/ico/geekway.svg"><span>GeekWay</span></a>
 
         </div>
-        <p class="mini centered">Пишите</p>
-    </div>
+        <div class="profile-bar">
+            <div class="profile">
+                <div id="obl"><img id="ico" src="/assets/avatar.jpg"></div>
+
+                <div id="cont">
+                    <p class="ph1">Александр Каурцев</p>
+                    <p>Веб разработчик и веб дизайнер</p>
+                    <div class="navic">
+                        <span class="navic">HTML</span>
+                        <span class="navic">CSS</span>
+                        <span class="navic">JavaScript</span>
+                        <span class="navic">Веб Дизайнер</span>
+                        <span class="navic">UI/UX</span>
+                        <span class="navic">UI</span>
+                        <span class="navic">Веб разработка</span>
+                        <span class="navic">C#</span>
+                        <span class="navic">SQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-d">
+                <p class="ph1">Поддержать меня</p>
+                <p class="mini">Так же и оплата услуг</p>
+                <div class="navic">
+                    <img alt="QIWI" src="/assets/svg/qivi.svg">
+                    <img alt="Яндекс Деньги" src="/assets/svg/ya_money.svg">
+                    <img alt="Карта" src="/assets/svg/cart_money.svg">
+                </div>
+                <button>Перейти</button>
+            </div>
+            <div id="yandex_rtb_R-A-1794541-1"></div>
+            <iframe src="https://discord.com/widget?id=888102048413937684&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+
+        <div class="content">
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>kaurcev.tk 2019-2022</p>
+        </div>
+
+    </footer>
+    <script>
+        window.yaContextCb.push(() => {
+            Ya.Context.AdvManager.render({
+                renderTo: 'yandex_rtb_R-A-1794541-1',
+                blockId: 'R-A-1794541-1'
+            })
+        })
+    </script>
+    <script src="/assets/main.js"></script>
+    <script>
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(88768984, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/88768984" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyAOv3Wdhq3aJUPMlLIF3ok1QpB7mr1WvBU",
+        authDomain: "alexsandr-kaurcev.firebaseapp.com", projectId: "alexsandr-kaurcev", storageBucket: "alexsandr-kaurcev.appspot.com", messagingSenderId: "1095166323080", appId: "1:1095166323080:web:2ead5cf0f691e27658b23d", measurementId: "G-YWQSGKG6LF"
+        }; const app = initializeApp(firebaseConfig); const analytics = getAnalytics(app);
+
+    </script>
 </body>
 
 </html>

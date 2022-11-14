@@ -1,0 +1,439 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url("/font/Raleway-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("/font/Raleway-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-Black";
+    src: url("/font/Raleway-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("/font/Raleway-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-ExtraBold";
+    src: url("/font/Raleway-ExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url("/font/Raleway-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("/font/Raleway-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("/font/Raleway-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html,
+body {
+    font-family: "Raleway-Regular";
+    background-color: #f2f4f8;
+    color: #131313;
+    padding-top: 25px;
+    font-size: 16px;
+}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 0 10px 0 #13131325;
+    padding: 10px;
+    z-index: 100;
+}
+
+footer {
+    display: none;
+}
+
+.header {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    height: 30px;
+}
+
+nav {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    background-color: #21212150;
+    height: 1px;
+    border-radius: 10px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 160px;
+    padding: 10px;
+    height: fit-content;
+    font-family: "Raleway-SemiBold";
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+#nav a {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+}
+
+#nav a img {
+    margin: 2px;
+}
+
+.profile {
+    background-color: #fff;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    max-width: 350px;
+}
+
+.profile #obl {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 150px;
+    background-position: center -20px;
+    background: url("/assets/avatar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 -10px 10px 0 #000;
+}
+
+.profile #cont {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.ph1 {
+    font-family: "Raleway-SemiBold";
+    font-size: 20px;
+}
+
+.profile-bar {
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.profile-d {
+    background-color: #fff;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 5px;
+    min-height: 50px;
+    padding: 20px;
+}
+
+.profile-bar div.navic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profile-bar span.navic {
+    color: #212121;
+    font-family: "Raleway-Regular";
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #f2f4f8;
+    padding: 4px 10px 4px 10px;
+    margin: 1px;
+}
+
+.profile-bar span.navic:hover {
+    transform: scale(1.2);
+    color: #212121;
+    font-family: "Raleway-Bold";
+}
+
+.profile-bar p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-d div.navic {
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.profile-d div.navic img {
+    margin: 4px;
+    height: 20px;
+}
+
+.profile-bar iframe {
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 5px;
+    min-height: 250px;
+}
+
+.profile #ico {
+    position: relative;
+    top: 100px;
+    left: 10%;
+    --size: 100px;
+    border-radius: 100px;
+    background-color: #f2f4f8;
+    border: 4px solid #fff;
+    height: var(--size);
+    width: var(--size);
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+    min-height: 80vh;
+}
+
+.footer {
+    font-family: "Raleway-Light";
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 12px;
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 50px 0px;
+    border-top: #13131350 solid 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #131313;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #131313;
+}
+
+#nav a:hover {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    border: 2px solid #8048f8;
+    color: #fff;
+    background-color: #8048f8;
+    border-radius: 8px;
+    font-family: "Raleway-SemiBold";
+    font-size: 16px;
+    padding: 10px;
+    max-width: 400px;
+    margin-top: 5px;
+}
+
+button:hover {}
+
+.mini {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+@media (max-width: 700px) {
+    html,
+    body {
+        font-family: "Raleway-Regular";
+        background-color: #f2f4f8;
+        padding-top: 35px;
+    }
+    button {
+        max-width: none;
+    }
+    main {
+        width: 100%;
+        max-width: 700px;
+        padding: 10px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 50vh;
+    }
+    .rang {
+        display: none;
+    }
+    .profile-bar iframe {
+        width: 100%;
+        max-width: none;
+    }
+    .profile-bar {
+        width: 100%;
+        max-width: none;
+        padding: 0px;
+    }
+    .profile {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+    .profile #obl {
+        background-color: #212121;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        height: 130px;
+    }
+    .profile #cont {
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .profile #ico {
+        position: relative;
+        top: 75px;
+        left: 0px;
+        --size: 110px;
+        border-radius: 100px;
+        background-color: #f2f4f8;
+        border: 5% solid #fff;
+        height: var(--size);
+        width: var(--size);
+    }
+    .profile-d {
+        width: 100%;
+        max-width: none;
+    }
+    .content {
+        width: 100%;
+        max-width: none;
+    }
+    #nav {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        background-color: #fff;
+        height: 50px;
+        width: 100%;
+        max-width: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 100;
+        border-top: #8048f850 solid 2px;
+    }
+    #nav span {
+        display: none;
+    }
+    #nav a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 7px;
+        max-width: none;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: max-content;
+    }
+    .footer {
+        text-align: center;
+    }
+    #nav a img {
+        --ico-size: 25px;
+        height: var(--ico-size);
+        width: var(--ico-size);
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capacity" content="yes">
+    <script>
+        window.yaContextCb = window.yaContextCb || []
+    </script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="/"><img id="logo" src="/logo.svg" alt="KAURCEV.TK"></a>
+            <nav>
+                <a href="/about">Обо мне</a>
+                <a href="/projects">Проекты</a>
+                <a href="/me">Портфолио</a>
+
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div class="center-pan"></div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>kaurcev.tk 2019-2022</p>
+        </div>
+
+    </footer>
+    <script>
+        window.yaContextCb.push(() => {
+            Ya.Context.AdvManager.render({
+                renderTo: 'yandex_rtb_R-A-1794541-1',
+                blockId: 'R-A-1794541-1'
+            })
+        })
+    </script>
+    <script src="/assets/main.js"></script>
+</body>
+
+</html>
