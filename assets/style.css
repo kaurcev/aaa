@@ -202,6 +202,18 @@ hr {
     padding: 20px;
 }
 
+.center-pan {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center
+}
+
 .profile-bar div.navic {
     display: flex;
     flex-direction: row;
