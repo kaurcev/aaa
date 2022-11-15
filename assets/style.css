@@ -445,6 +445,7 @@ h1 {
     .content {
         width: 100%;
         max-width: none;
+        border-radius: 0px;
     }
     .content iframe {
         width: 100%;
