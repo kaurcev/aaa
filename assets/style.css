@@ -351,6 +351,26 @@ button:hover {
     font-size: 12px;
 }
 
+h1 {
+    font-family: "Raleway-ExtraBold";
+    margin-bottom: 2px;
+}
+
+.content.carting {
+    font-family: 'Segoe UI';
+    color: #fff;
+    border-radius: 0px;
+    background-color: #131313;
+    box-shadow: 0 0 10px 0 rgb(243, 65, 101);
+}
+
+.content.carting h1,
+h2,
+h3,
+h4 {
+    color: rgb(243, 65, 101);
+}
+
 @media (max-width: 700px) {
     html,
     body {
