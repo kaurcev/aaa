@@ -21,3 +21,13 @@ function loading() {
         }
     });
 }
+
+/*
+
+        Start Test Site
+        http://localhost/
+
+        Start Site
+        http://kaurcev.tk/
+
+*/
