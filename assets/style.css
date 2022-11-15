@@ -115,6 +115,14 @@ main {
     justify-content: space-around;
 }
 
+a {
+    color: #8048f8;
+}
+
+a:visited {
+    color: #4d2b96;
+}
+
 hr {
     width: 100%;
     border: none;
@@ -332,7 +340,11 @@ button {
     margin-top: 5px;
 }
 
-button:hover {}
+button:hover {
+    border: 2px solid #8048f8;
+    color: #8048f8;
+    background-color: #fff;
+}
 
 .mini {
     opacity: 0.6;
