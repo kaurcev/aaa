@@ -365,16 +365,40 @@ h1 {
     margin-bottom: 2px;
 }
 
-.content.carting {
-    font-family: 'Segoe UI';
-    color: #fff;
-    border-radius: 0px;
-    background-color: #131313;
-    box-shadow: 0 0 10px 0 rgb(243, 65, 101);
+#countdown {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.content.carting h1 {
-    color: rgb(243, 65, 101);
+.countdown-number {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-time {
+    font-size: 24px;
+    font-family: "Raleway-SemiBold";
+}
+
+#loading {
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway-SemiBold";
 }
 
 @media (max-width: 700px) {
