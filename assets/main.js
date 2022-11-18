@@ -2,9 +2,7 @@
 
 function loading() {
     console.clear();
-
-        document.getElementById("loading").remove();
-    }
+    document.getElementById("loading").remove();
     $.ajax({
         url: "https://get.geojs.io/v1/ip/geo.js",
         dataType: "jsonp",
