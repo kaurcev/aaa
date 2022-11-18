@@ -2,16 +2,7 @@ document.getElementsByTagName("main")[0].style.display = "none";
 
 function loading() {
     console.clear();
-    if ((window.location.pathname == "/heart.html") || (window.location.pathname == "/heart")) {
-        var password = prompt("Опачки.. А тут нужен пароль");
-        if (password.toLowerCase() == document.getElementById("logo").alt) {
-            document.getElementsByTagName("main")[0].style.display = "flex";
-            document.getElementById("loading").remove();
-        } else {
-            document.getElementsByClassName("content")[0].innerHTML = "Что-то пошлло не так";
-            document.getElementById("loading").remove();
-        }
-    } else {
+
         document.getElementById("loading").remove();
     }
     $.ajax({
