@@ -1,4 +1,4 @@
-// document.getElementsByTagName("main")[0].style.display = "none";
+document.getElementsByTagName("main")[0].style.display = "flex";
 
 function loading() {
     console.clear();
